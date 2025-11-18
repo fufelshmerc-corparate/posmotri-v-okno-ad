@@ -281,7 +281,7 @@ ol {
 
 .more-button {
   min-inline-size: 389px;
-  margin: 2px;
+  margin: 0px;
 }
 
 .visually-hidden {
@@ -292,4 +292,17 @@ ol {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
+}
+
+/* Кастомный скроллбар */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgb(217 217 217 / 10%);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #D9D9D9;
 }
