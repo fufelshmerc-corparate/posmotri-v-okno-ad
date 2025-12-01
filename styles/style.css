@@ -47,8 +47,6 @@ ol {
   grid-template-areas: 'result content__details';
 }
 
-/* Левый блок */
-
 .result__video-container {
   inline-size: 711px;
   block-size: 386px;
@@ -178,7 +176,7 @@ ol {
   outline: none;
 }
 
-/* По макету под кнопкой при нажатии нет подчёркивания */
+
 
 .button:active,
 .content__list-item:active {
@@ -192,8 +190,6 @@ ol {
   outline-offset: 1px;
   outline: 1px solid #fff;
 }
-
-/* Правый блок */
 
 .content__details {
   grid-area: content__details;
@@ -294,7 +290,6 @@ ol {
   white-space: nowrap;
 }
 
-/* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
 }
